@@ -14,7 +14,6 @@ const con = mysql.createConnection({
     database:"kulkas"
 });
 con.connect()
-  
 
 app.get("/", (req, res) => {
     console.log("Get Data")
